@@ -17,6 +17,7 @@ function nowServing(deliLine) {
   else
     currentlyServing.push(`Currently serving ${deliLine.shift()}.`)
     return currentlyServing;
+}
 
   console.log(currentlyServing)
 }
