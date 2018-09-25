@@ -30,7 +30,7 @@ function currentLine(katzDeliLine) {
     console.log(currentlyServing);
   }
   else
-  currentlyServing.push(` ` + [i + 1])
+  currentlyServing.push(` ` + [i + 1] + `.` + `)
   
 }
 
