@@ -11,7 +11,7 @@ function nowServing(deliLine) {
     i++;
   }
   if (deliLine === 0) {
-    currentlyServing.push('There is no one waiting to be served');
+    currentlyServing.push('There is nobody waiting to be served');
     return currentlyServing;
   }
   else
