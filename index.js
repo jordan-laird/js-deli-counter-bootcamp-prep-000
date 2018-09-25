@@ -28,6 +28,7 @@ function currentLine(katzDeliLine) {
   if(katzDeliLine.length === 0){
     currentlyServing.push('The line is currently empty.')
   }
+  else
   
 }
 
